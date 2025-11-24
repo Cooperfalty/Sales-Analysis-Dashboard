@@ -71,6 +71,6 @@ The trends analysis shows sales and profit chronologically for the entire timeli
 
 1. Expected CPG industry Q3 and Q4 spikes around holidays. **Inventory and demand forecasting need to account and prepare for spikes, create a demand and inventory forecasting report to reduce risk of stock outs**.
 
-2. Sales have been steadily growing year over year. Revisit lacking categories and products to continue to ride the highest performing areas and potentially cutting under performing areas to invest in the best and save on the bad. 
+2. Sales have been steadily growing year over year. Revisit lacking categories and products to potentially cut or reposition underprfoming regions, categories, or products. Contiue to invest in the highest perfoming products, categories, and regions to gain further marketshare and increase steady growth.
 
 
