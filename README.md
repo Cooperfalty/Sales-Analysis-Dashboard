@@ -1,6 +1,7 @@
 # Sales-Analysis-Dashboard- Dashboard using public Superstore Sales data.
 
-**FOR EASIER READABILITY-PLEASE SEE (Store Sales Analysis.pdf) IN FILES FOR POWERPOINT VERSION**
+**FOR EASIER READABILITY-PLEASE SEE (Store Sales Analysis.pdf) IN FILES FOR POWERPOINT VERSION.**
+
 The objective of this project is to deliver a clear, actionable understanding of sales and profit performance across product categories and regions. By leveraging Power BI dashboards with interactive visualizations that reveal trends, highlight strengths and weaknesses, and support strategic recommendations, the analysis was designed to answer key business questions:
 Which categories and regions drive the most value?
 Where are profit margins lagging?
