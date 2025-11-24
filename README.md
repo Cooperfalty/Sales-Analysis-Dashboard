@@ -8,26 +8,34 @@ What actions can maximize future growth and efficiency?
 
 MY PROCESS: 
 1. First, I found a public dataset that could be suitable for this project (Sample Superstore.csv). I chose this dataset because it included order date, sales, profit, quantity, discount amount, categories, and region so I could drill down and combine different datapoints to extract insights and answer common business questions. It also included 10,000+ rows initially to show my ability to use syndicated data efficiently.
+   
 2. After downloading the dataset, I had to clean and prepare it for visualizations. I added columns- profit margin, average order value, then formatted the columns to correlate with date, numeric, text, or percentage to enable calculations.
+   
 3. Once the data was imported into Power BI, I used Dax formulas to create new calculations and data measures to unlock new insights- I added Cumulative Sales %, total profit, total sales, and 3-month moving average.
+   
 4. Finally, I created four separate dashboards to showcase region performance, category performance, discount impact on profit, and YOY trends analysis to then tell a story of each based on the data. Each dashboard allows for filtering to drill down into specific region, category, year, or segment for more microscoped analysis. 
 
 FIRST DASHBOARD: OVERVIEW EXECUTIVE SALES AND PROFIT SUMMARY
 <img width="2075" height="1139" alt="image" src="https://github.com/user-attachments/assets/30050e15-b1b1-4247-856d-25095952ee23" />
 I created the overview dashboard to give a high-level view over the entire business showing total sales, profit, top products and regions, and trends through the past years for all available data. 
 Insights on this overview inform me of what I may want to dig deeper into my segmented dashboards for specific recommendations. 
-1. Technology leads in sales across all regions, while also producing the highest profit and margin overall. 
-2. Furniture profits and margins are lowest across all regions. 
+
+1. Technology leads in sales across all regions, while also producing the highest profit and margin overall.
+  
+2. Furniture profits and margins are lowest across all regions.
+  
 3. Central region has 3rd highest sales yet lowest profit and a negative 10% margin. 
 
 
 SECOND DASHBOARD: REGIONAL SALES AND PROFITABILTY 
 <img width="2075" height="1162" alt="image" src="https://github.com/user-attachments/assets/5c95e13d-3442-4b89-8d02-d16ac31fd484" />
 The regional performance dashboard shows performance by region (Obviously ). It provides how the business is performing in different regions based off sales and profit, unlocking insights of where and how the business is performing well or lacking. Slicer/filters were added for ability to drill down into specific categories and cities in each region to drill down deeper by region. 
+
 1.Central region is third in sales but has the lowest profit and margin (-10.4%) while yielding the largest discount amount. Discount being highest yet profit being lowest is a red flag that promotional strategies and potential operational inefficiencies are at play in Central region. (Central KPIs Shown below) **Serious review of Central operations, discount/promotions and store strategy is needed to uncover what Central is doing differently than the other regions which leads it to be the only region with negative margin.**
 <img width="750" height="100" alt="image" src="https://github.com/user-attachments/assets/8a28931c-c715-4ec9-8a92-81fd7de039cc" />
 
 2. West Region leads in sales, profit, and profit margin. **This should prompt a review and analysis of operations, promotional strategy, and marketing in this region and standardize across the other regions since there are clearly some best practices here. To implement strategies that translate across regions, do a phased rollout by region to see which are most impactful.**
+   
 3.South has the lowest sales ($391,721.91) but a reasonable margin (14.54%).**I recommend launching targeted campaigns and reasonable promotions to boost volume without sacrificing much margin.**
 
 THIRD DASHBOARD: Category Performance and Profitablity
@@ -40,20 +48,27 @@ Furniture: $741,999.80 (32.3%)                   Furniture: $18,451.27 (3.88% ma
 Office Supplies: $719,047.03 (31.3%)             Office Supplies: $122,490.80 (13.8% margin)
 
 1.Technology has the best sales and profit/profit margin.**Increase marketing spend to further accelerate sales growth.**
+
 2. **The second highest technology product in sales yields a -8% profit margin. After further investigation, the average discount on this product is 50%. I would recommend a reduction to a maximum 40% discount, then the profit margin would be a minimum 2% or greater depending on the discount reduction spread. =**
+
 3. Furniture, accounts for 32% of sales (2nd highest) yet has 3.88% profit margin. **This prompts a review of the cost of goods, pricing, or promotional issues within Furniture. Target an incremental increase in profit margin by shopping for different suppliers/manufacturers, adjusting price, and reducing discounts.**
 
 FOURTH DASHBOARD: Discount Impact
 <img width="2076" height="1176" alt="image" src="https://github.com/user-attachments/assets/08995938-41dd-485c-ab83-1de8bb24129e" />
 Discount Impact Dashboard highlights the correlation and impact discounts have on the sales and profitability of a category. Obviously, there is direct correlation with higher discounts leading to lower, and in many cases negative, profits and margins. While the higher discounts may have limited offering, it shows sales volume doesn’t increase enough to offset profit. 
-1.Furniture offers the highest volume of relative sales at a 20% discount or above. Some as high as 70%.** I recommend setting a cap at 20%, as everything above is not profitable (with exception). To maintain or increase sales volumes, everyday pricing could be adjusted to eliminate the need for high discounts on select products to mitigate the negative profit margins.**
+
+1.Furniture offers the highest volume of relative sales at a 20% discount or above. Some as high as 70%.**I recommend setting a cap at 20%, as everything above is not profitable (with exception). To maintain or increase sales volumes, everyday pricing could be adjusted to eliminate the need for high discounts on select products to mitigate the negative profit margins.**
+
 **2. Eliminating all discounts over 20% for office supplies would improve profit margin to 25% from 14%, while only sacrificing 6% of overall sales. The table shown below shows the effect  on profit, margin, and sales after eliminating all discounts over 20% for all categories on**.
 <img width="1794" height="216" alt="image" src="https://github.com/user-attachments/assets/8e45e5ae-29f1-4e69-a532-65f601056485" />
+
 
 FINAL DASHBOARD: Trends Analysis
 <img width="1197" height="679" alt="image" src="https://github.com/user-attachments/assets/185bfe06-ffe4-423e-b73c-d25d898b6b86" />
 The trends analysis shows sales and profit chronologically for the entire timeline of this data chronologically. It also shows Year over year overall sales trends for all categories, segments, and regions. However, the slicers allow you to investigate specifics for each of the named for segmented analysis. 
+
 1. Expected CPG industry Q3 and Q4 spikes around holidays. **Inventory and demand forecasting need to account and prepare for spikes, create a demand and inventory forecasting report to reduce risk of stock outs**.
+
 2. Sales have been steadily growing year over year. Revisit lacking categoires and products to continue to ride the highest perfomring areas and potentially cutting under performing areas to invest in the best and save on the bad. 
 
 
