@@ -1,4 +1,4 @@
-# Sales-Analysis-Dashboard- Dashboard using public Superstore Sales data to analyze Overall Performance, regional performance, Category Profitability, Discount Impacts, and Overall Trend analysis. 
+# Sales-Analysis-Dashboard- Dashboard using public Superstore Sales data.
 
 The objective of this project is to deliver a clear, actionable understanding of sales and profit performance across product categories and regions. By leveraging Power BI dashboards with interactive visualizations that reveal trends, highlight strengths and weaknesses, and support strategic recommendations, the analysis was designed to answer key business questions:
 Which categories and regions drive the most value?
