@@ -56,7 +56,8 @@ These DAX measures allowed me to unlock advanced insights such as trend detectio
 
 Finally, I created four separate dashboards to showcase region performance, category performance, discount impact on profit, and YOY trends analysis to then tell a story of each based on the data. All dashboards include interactive slicers and cross-filtering, enabling users to drill into region, category, year, or customer segment for more granular analysis. I also optimized the layout for usability by implementing consistent color themes, bookmarks, and navigation buttons.
 
-FIRST DASHBOARD: OVERVIEW EXECUTIVE SALES AND PROFIT SUMMARY
+
+**FIRST DASHBOARD: OVERVIEW EXECUTIVE SALES AND PROFIT SUMMARY**
 <img width="2075" height="1139" alt="image" src="https://github.com/user-attachments/assets/30050e15-b1b1-4247-856d-25095952ee23" />
 I created the overview dashboard to give a high-level view over the entire business showing total sales, profit, top products and regions, and trends through the past years for all available data. 
 Insights on this overview inform me of what I may want to dig deeper into my segmented dashboards for specific recommendations. 
@@ -68,7 +69,7 @@ Insights on this overview inform me of what I may want to dig deeper into my seg
 3. Central region has 3rd highest sales yet lowest profit and a negative 10% margin. 
 
 
-SECOND DASHBOARD: REGIONAL SALES AND PROFITABILTY 
+**SECOND DASHBOARD: REGIONAL SALES AND PROFITABILTY**
 <img width="2075" height="1162" alt="image" src="https://github.com/user-attachments/assets/5c95e13d-3442-4b89-8d02-d16ac31fd484" />
 The regional performance dashboard shows performance by region (Obviously ). It provides how the business is performing in different regions based off sales and profit, unlocking insights of where and how the business is performing well or lacking. Slicer/filters were added for ability to drill down into specific categories and cities in each region to drill down deeper by region. 
 
@@ -79,7 +80,7 @@ The regional performance dashboard shows performance by region (Obviously ). 
    
 3.South has the lowest sales ($391,721.91) but a reasonable margin (14.54%).**I recommend launching targeted campaigns and reasonable promotions to boost volume without sacrificing much margin.**
 
-THIRD DASHBOARD: Category Performance and Profitablity
+**THIRD DASHBOARD: Category Performance and Profitablity**
 <img width="2075" height="1159" alt="image" src="https://github.com/user-attachments/assets/66422430-593e-4734-885a-7f949986fb58" />
 The category performance dashboard shows performance by category- furniture, technology, and office supplies. KPIs of sales, profit, and % of sales for each can provide insight on which categories do well and why. Slicers to segment by specific region, category, and customer segment being sold to are added to drill into performance as specific as you can get. The table also allows you to drill down by specific products in each category to show sales and profit for each. 
 
@@ -94,7 +95,7 @@ Office Supplies: $719,047.03 (31.3%)             Office Supplies: $122,490.80 (1
 
 3. Furniture, accounts for 32% of sales (2nd highest) yet has 3.88% profit margin. **This prompts a review of the cost of goods, pricing, or promotional issues within Furniture. Target an incremental increase in profit margin by shopping for different suppliers/manufacturers, adjusting price, and reducing discounts.**
 
-FOURTH DASHBOARD: Discount Impact
+**FOURTH DASHBOARD: Discount Impact**
 <img width="2076" height="1176" alt="image" src="https://github.com/user-attachments/assets/08995938-41dd-485c-ab83-1de8bb24129e" />
 Discount Impact Dashboard highlights the correlation and impact discounts have on the sales and profitability of a category. Obviously, there is direct correlation with higher discounts leading to lower, and in many cases negative, profits and margins. While the higher discounts may have limited offering, it shows sales volume doesn’t increase enough to offset profit. 
 
