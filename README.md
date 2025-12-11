@@ -28,7 +28,7 @@ After importing the dataset into Power Query, I performed a full data preparatio
   - Split and merged columns where needed for cleaner hierarchies.
   - Normalization: Renamed fields, standardized category values, and applied consistent formatting.
 
-This ensured a clean, optimized dataset before any analytical modeling occurred.
+This ensured a clean, optimized dataset.
 
 3. Data Modeling & DAX Measures
 
