@@ -16,96 +16,45 @@ I began by sourcing a publicly available dataset—Sample Superstore.csv—becau
 2. Data Cleaning & Transformation
 
 After importing the dataset into Power Query, I performed a full data preparation:
-
-Data Type Enforcement: Ensured all fields were assigned correct data types (date, whole number, decimal, text, percentage) to prevent calculation errors in DAX.
-
-New Columns Created in Power Query:
-
-Profit Margin = Profit / Sales
-
-Average Order Value = Sales / Quantity
-
-Data Quality Steps:
-
-Removed duplicates and blank rows.
-
-Checked for outliers in discount and sales fields.
-
-Split and merged columns where needed for cleaner hierarchies.
-
-Normalization: Renamed fields, standardized category values, and applied consistent formatting.
-
-Load Settings: Configured to load the cleaned table into the data model while disabling “Enable Load” for unnecessary intermediate steps to optimize model performance.
+- Data Type Enforcement: Ensured all fields were assigned correct data types (date, whole number, decimal, text, percentage) to prevent calculation errors in DAX.
+  
+- New Columns Created in Power Query:
+  - Profit Margin = Profit / Sales
+  - Average Order Value = Sales / Quantity
+ 
+- Data Quality Steps:
+  - Removed duplicates and blank rows.
+  - Checked for outliers in discount and sales fields.
+  - Split and merged columns where needed for cleaner hierarchies.
+  - Normalization: Renamed fields, standardized category values, and applied consistent formatting.
 
 This ensured a clean, optimized dataset before any analytical modeling occurred.
 
-3. Data Modeling & DAX Measures (Power BI Desktop)
+3. Data Modeling & DAX Measures
 
 Once loaded, I structured the dataset into a proper star-schema data model, including defining hierarchies (Category > Sub-Category) and creating a dedicated Date Table using DAX (marked as a Date Table for time intelligence accuracy).
 
 Next, I built a library of DAX measures to support deeper business insights:
 
-Sales & Profit Metrics
+- Sales & Profit Metrics
+  - Total Sales
+  - Total Profit 
+  - Profit Margin %
 
-Total Sales = SUM(Superstore[Sales])
+- Time Intelligence Measures
+  - YOY Sales %
+  - YOY Profit Change
+  - 3-Month Moving Average
 
-Total Profit = SUM(Superstore[Profit])
-
-Profit Margin % = DIVIDE([Total Profit], [Total Sales])
-
-Time Intelligence Measures
-
-YOY Sales %
-
-YOY Profit Change
-
-3-Month Moving Average = AVERAGEX(DATESINPERIOD(…), [Total Sales])
-
-Cumulative Metrics
-
-Cumulative Sales = CALCULATE([Total Sales], FILTER(ALLSELECTED(‘Date’), 'Date'[Date] <= MAX('Date'[Date])))
-
-Cumulative Sales %
+- Cumulative Metrics
+  - Cumulative Sales
+  - Cumulative Sales %
 
 These DAX measures allowed me to unlock advanced insights such as trend detection, performance comparisons, forecasting behaviors, and contribution analysis.
 
 4. Dashboard Development & Insight Storytelling
 
-I developed four separate, interactive dashboards, each focused on a core business question:
-
-Regional Performance Dashboard
-
-Map visuals, bar charts, KPIs, and drill-down filtering
-
-Used slicers for Region, Segment, and Order Date
-
-Insights: Which regions drive most revenue and profit? Which regions have downward trends?
-
-Category & Sub-Category Analysis
-
-Hierarchical visuals, treemaps, decomposition trees
-
-Ability to drill into sub-category contributions
-
-Insights: Which categories produce the highest margins? What product lines are underperforming?
-
-Discount Impact on Profitability
-
-Scatter plots, trend lines, correlation visuals
-
-DAX measures to classify discount tiers
-
-Insights: At what discount thresholds do margins deteriorate? Which product segments are most sensitive to discounting?
-
-Year-over-Year Trends & Seasonality
-
-Line charts, running totals, period-over-period comparisons
-
-Time-intelligence powered by the custom Date Table
-
-Insights: YOY growth trends, seasonal peaks, and performance flags
-
-All dashboards include interactive slicers and cross-filtering, enabling users to drill into region, category, year, or customer segment for more granular analysis. I also optimized the layout for usability by implementing consistent color themes, bookmarks, and navigation buttons.
+Finally, I created four separate dashboards to showcase region performance, category performance, discount impact on profit, and YOY trends analysis to then tell a story of each based on the data. All dashboards include interactive slicers and cross-filtering, enabling users to drill into region, category, year, or customer segment for more granular analysis. I also optimized the layout for usability by implementing consistent color themes, bookmarks, and navigation buttons.
 
 FIRST DASHBOARD: OVERVIEW EXECUTIVE SALES AND PROFIT SUMMARY
 <img width="2075" height="1139" alt="image" src="https://github.com/user-attachments/assets/30050e15-b1b1-4247-856d-25095952ee23" />
