@@ -17,11 +17,9 @@ I began by sourcing a publicly available dataset—Sample Superstore.csv—becau
 
 After importing the dataset into Power Query, I performed a full data preparation:
 - Data Type Enforcement: Ensured all fields were assigned correct data types (date, whole number, decimal, text, percentage) to prevent calculation errors in DAX.
-  
 - New Columns Created in Power Query:
   - Profit Margin = Profit / Sales
   - Average Order Value = Sales / Quantity
- 
 - Data Quality Steps:
   - Removed duplicates and blank rows.
   - Checked for outliers in discount and sales fields.
@@ -40,16 +38,14 @@ Next, I built a library of DAX measures to support deeper business insights:
   - Total Sales
   - Total Profit 
   - Profit Margin %
-
 - Time Intelligence Measures
   - YOY Sales %
   - YOY Profit Change
   - 3-Month Moving Average
-
 - Cumulative Metrics
   - Cumulative Sales
   - Cumulative Sales %
-
+    
 These DAX measures allowed me to unlock advanced insights such as trend detection, performance comparisons, forecasting behaviors, and contribution analysis.
 
 4. Dashboard Development & Insight Storytelling
